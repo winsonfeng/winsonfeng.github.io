@@ -14,6 +14,7 @@ npm run serve
 ```
 npm run build
 ```
+ git config --global user.name "winsonfeng"
 
 ### Run your tests
 ```
