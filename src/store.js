@@ -3,14 +3,19 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+var count = localStorage.getItem('count')
+
 export default new Vuex.Store({
-  state: {
-
-  },
-  mutations: {
-
-  },
-  actions: {
-
-  }
+    state: {
+        count
+    },
+    mutations: {
+        increment(state) {
+            this.state.count++
+        },
+        jianshao(state) {
+            this.state.count--
+        }
+    },
+    actions: {}
 })
