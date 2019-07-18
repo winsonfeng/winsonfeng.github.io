@@ -10,7 +10,7 @@
         name: 'helloworld',
         data() {
             return{
-                content1:"真牛逼"
+                content1:"真牛逼aa"
             }
         },
         created() {
